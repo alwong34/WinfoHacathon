@@ -1,3 +1,8 @@
+.wholeprofile {
+  display: flex;
+  flex-direction: column;
+}
+
 h2 {
   font-family: sans-serif;
   color: maroon;
