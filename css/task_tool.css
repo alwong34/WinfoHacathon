@@ -2,3 +2,21 @@ h2 {
   color: pink;
   background-color: black;
 }
+
+#input-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+#task-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 70%;
+}
