@@ -1,9 +1,15 @@
-.wholeprofile {
+#basicInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profileDetails {
   display: flex;
   flex-direction: column;
 }
 
-h2 {
-  font-family: sans-serif;
-  color: maroon;
+ol {
+  list-style: none;
 }
