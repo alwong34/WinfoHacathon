@@ -20,27 +20,22 @@
         <li><a href="#">History Tool</a></li>
       </ul>
     </nav>
-    <h2>TASK TOOL PAGE</h2>
     <div id="input-bar">
       <form class="" action="index.html" method="post">
-        <input id="task-value" type="text" name="" value="">
+        <input id="task-value" placeholder="Task" type="text" name="" value="">
+        <input id="date-value" placeholder="Date" type="text" name="" value="">
+        <select id="priority-value">
+          <option value="1">high</option>
+          <option value="2">mid</option>
+          <option value="3">low</option>
+        </select>
       </form>
       <button id="submit-task" type="button">submit</button>
     </div>
     <div id="task-container">
       <div class="task">
-        <p id="task-name">Fix Resume</p>
-        <p id="due-date">Fri, January 25th</p>
-        <button class="cancel-btn" name="button">X</button>
-      </div>
-      <div class="task">
-        <p id="task-name">Fix Resume</p>
-        <p id="due-date">Fri, January 25th</p>
-        <button class="cancel-btn" name="button">X</button>
-      </div>
-      <div class="task">
-        <p id="task-name">Fix Resume</p>
-        <p id="due-date">Fri, January 25th</p>
+        <p class="task-name">Fix Resume</p>
+        <p class="due-date">Fri, January 25th</p>
         <button class="cancel-btn" name="button">X</button>
       </div>
     </div>
